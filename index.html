@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    table{
+        width: 400px;
+    }
+    table,tr,th{
+        border: 1px solid black;
+    }
+    #add-task{
+        background-color: yellowgreen;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <input name="task -name" id="task-name" placeholder="New Task" />
+        <button id="add-task">Add Task</button>
+    </div>
+<div class="box">
+<table  class="box">
+    <tr>
+        <th>Task Name</th>
+        <th>Done</th>
+        <th>Delete</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
+</body>
+
+</html>
